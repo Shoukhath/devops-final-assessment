@@ -1,0 +1,15 @@
+Grafana Loki Monitoring Setup
+
+Loki is used for centralized log aggregation.
+
+Loki was started locally using Docker:
+docker run -d --name=loki -p 3100:3100 grafana/loki:2.9.0
+
+The application writes logs to standard output (stdout).
+In a real deployment, Docker or Nomad forwards container logs to Loki
+using the Docker logging driver or Nomad logging configuration.
+
+Logs can then be queried via Grafana or the Loki HTTP API.
+
+This setup demonstrates understanding of log aggregation flow
+rather than full production monitoring.
