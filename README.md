@@ -1,9 +1,6 @@
-# devops-final-assessment
+# DevOps Intern Final Assessment
 
-This repository is created as part of the DevOps internship final assessment.
+Name: Shoukhath Ali  
+Date: 2026-01-30  
 
-## Contents
-- Python application
-- Dockerfile
-- Shell script
-- Basic monitoring notes
+This repository demonstrates a basic DevOps workflow using Git, Linux, Docker, CI/CD, Nomad, and monitoring.
