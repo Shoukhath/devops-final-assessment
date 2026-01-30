@@ -1,2 +1,2 @@
-print("Hello from DevOps Internship Assessment")
+print("Hello, DevOps!")
 
