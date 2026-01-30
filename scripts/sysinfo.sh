@@ -1,5 +1,11 @@
 #!/bin/bash
-echo "System Info"
-uname -a
+set -euo pipefail
+
+echo "Current user:"
+whoami
+
+echo "Current date:"
+date
+
+echo "Disk usage:"
 df -h
-free -m
